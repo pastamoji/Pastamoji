@@ -120,15 +120,16 @@
           <button type="button" class="combiner" onclick="combiner(document.getElementById('selection').options[document.getElementById('selection').selectedIndex].value);">combine</button>
           <br />
           <h3>Result:</h3>
-          <input type="text" id="output" readonly="" value=""></input>
-          <button id="bopy" onclick="copyoutput();">🅱️opy</button>
+          <input type="text" id="output" value="" />
+	  <span> Copy it manually </span>
+          <!-- <button id="bopy" onclick="copyoutput();">🅱️opy</button> -->
 
           <hr />
           <h3>Paste Area:</h3>
           <br />
           <textarea type="text" id="pastaland" placeholder="pasta bowl" onchange="space(1, this);"></textarea>
           <br />
-          <button class="cwopy" onclick="copypasta();">cʷopy</button>
+          <!-- <button class="cwopy" onclick="copypasta();">cʷopy</button> -->
 
         </div>
         <!--/form -->
