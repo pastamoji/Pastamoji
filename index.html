@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>🇵🇦͜🇸🇹🇦moji</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Marck+Script">
+	<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Cabin">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="header">
+        <div class="area">
+          <h1 class="title">🇵<span class="">🇦͜🇸🇹🇦</span><span class="alt">moji</span></h1>
+        </div>
+      </div>
+      <div class="bod">
+        <div class="form">
+          <h3>Input and Select:</h3>
+          <input type="text" id="primary" placeholder="input" name="input" maxlength="8" onchange="">
+          <div class="aside">
+            <div class="nav">
+              <span id="back">back</span>
+              <span id="forward">forward</span>
+            </div>
+            <div class="dropdown">
+              <button onclick="quickmenu()" class="ddbutton">quick add</button>
+              <div id="ddmenu" class="ddcontent">
+                <a href="#" onclick="add('&#21328;')"><span class="uchar">&#21328;</span> &nbsp;<small>Left Manji</small></a>
+                <a href="#" onclick="add('&#21325;')"><span class="uchar">&#21325;</span> &nbsp;<small>Right Manji</small></a>
+                <a href="#" onclick="add('&#9398;')"><span class="uchar">&#9398;</span> &nbsp;<small>Circled A</small></a>
+			    <a href="#" onclick="add('&#128629;')"><span class="uchar">&#128629;</span> &nbsp;<small>Fancy Ampersand</small></a>
+                <a href="#" onclick="add('&#9773;')"><span class="uchar">&#9773;</span> &nbsp;<small>Hammer and Sickle</small></a>
+                <a href="#" onclick="add('&#128736;')"><span class="uchar">&#128736;</span> &nbsp;<small>Hammer and Wrench</small></a>
+                <a href="#" onclick="add('&#9874;')"><span class="uchar">&#9874;</span> &nbsp;<small>Hammer and Pick</small></a>
+                <a href="#" onclick="add('Ⅰ')">Ⅰ &nbsp;<small>Roman Numeral 1</small></a>
+                <a href="#" onclick="add('Ⅱ')">Ⅱ &nbsp;<small>Roman Numeral 2</small></a>
+                <a href="#" onclick="add('Ⅲ')">Ⅲ &nbsp;<small>Roman Numeral 3</small></a>
+                <a href="#" onclick="add('Ⅳ')">Ⅳ &nbsp;<small>Roman Numeral 4</small></a>
+                <a href="#" onclick="add('Ⅴ')">Ⅴ &nbsp;<small>Roman Numeral 5</small></a>
+                <a href="#" onclick="add('Ⅵ')">Ⅵ &nbsp;<small>Roman Numeral 6</small></a>
+                <a href="#" onclick="add('Ⅶ')">Ⅶ &nbsp;<small>Roman Numeral 7</small></a>
+                <a href="#" onclick="add('Ⅷ')">Ⅷ &nbsp;<small>Roman Numeral 8</small></a>
+                <a href="#" onclick="add('Ⅸ')">Ⅸ &nbsp;<small>Roman Numeral 9</small></a>
+                <a href="#" onclick="add('Ⅹ')">Ⅹ &nbsp;<small>Roman Numeral 10</small></a>
+                <a href="#" onclick="add('“')"><span class="uchar">“</span> &nbsp;<small>Fancy Double Quotes (left)</small></a>
+                <a href="#" onclick="add('”')"><span class="uchar">”</span> &nbsp;<small>Fancy Double Quotes (right)</small></a>
+                <a href="#" onclick="add('&#8523;')">&#8523; &nbsp;<small>Flipped Ampersand</small></a>
+                <a href="#" onclick="add('&#247;')">&#247; &nbsp;<small>Division</small></a>
+              </div>
+            </div>
+          </div>
+          <!--/aside-->
+
+          <br />
+          <select id="selection" class="">
+	    	<option value="" disabled hidden>e&#8416; &nbsp; Circled Backslash (over)</option>
+	
+	    	<option value="20D0"><span>e</span>&#8400; &nbsp; Left-harpoon (top)</option>
+		    <option value="20D1"><span>e</span>&#8401; &nbsp; Right-harpoon (top)</option>
+			<option value="20D2"><span>e</span>&#8402; &nbsp; Long Vertical Overline</option>
+			<option value="20D3"><span>e</span>&#8403; &nbsp; Short Vertical Overline</option>
+		
+			<option value="20D4"><span>e</span>&#8404; &nbsp; Anticlockwise Arrow (top)</option>
+			<option value="20D5"><span>e</span>&#8405; &nbsp; Clockwise Arrow (top)</option>
+			<option value="20D6"><span>e</span>&#8406; &nbsp; Left Arrow (top)</option>
+			<option value="20D7"><span>e</span>&#8407; &nbsp; Right Arrow (top)</option>
+		
+			<option value="20D8"><span>e</span>&#8408; &nbsp; Ring (over)</option>
+			<option value="20D9"><span>e</span>&#8409; &nbsp; Clockwise Ring (over)</option>
+			<option value="20DA"><span>e</span>&#8410; &nbsp; Anticlockwise Ring (over)</option>
+			<option value="20DB"><span>e</span>&#8411; &nbsp; Elipsis-3 (top)</option>
+		
+			<option value="20DC"><span>e</span>&#8412; &nbsp; Elipsis-4 (top)</option>
+			<option value="20DD"><span>e</span>&#8413; &nbsp; Circle (over)</option>
+			<option value="20DE"><span>e</span>&#8414; &nbsp; Square (over)</option>
+			<option value="20DF"><span>e</span>&#8415; &nbsp; Diamond (over)</option>
+		
+			<option value="20E0" selected><span>e&#8416; &nbsp; Circled Backslash (over)</option>
+			<option value="20E1"><span>e</span>&#8417; &nbsp; 2-way arrow (top)</option>
+			<option value="20E2"><span>e</span>&#8418; &nbsp; Screen (over)</option>
+			<option value="20E3"><span>e</span>&#8419; &nbsp; Keycap (box)</option>
+		
+			<option value="20E4"><span>e</span>&#8420; &nbsp; Equalateral Triangle (over)</option>
+			<option value="20E5"><span>e</span>&#8421; &nbsp; Backslash (over)</option>
+			<option value="20E6"><span>e</span>&#8422; &nbsp; Double vertical</option>
+			<option value="20E7"><span>e</span>&#8423; &nbsp; Annuity</option>
+		
+			<option value="20E8"><span>e</span>&#8424; &nbsp; Elipsis-3 (bottom)</option>
+			<option value="20E9"><span>e</span>&#8425; &nbsp; Wide Bridge (top)</option>
+			<option value="20EA"><span>e</span>&#8426; &nbsp; Left arrow (over)</option>
+			<option value="20EB"><span>e</span>&#8427; &nbsp; Double slash (over)</option>
+		
+			<option value="20EC"><span>e</span>&#8428; &nbsp; Right-harpoon (bottom)</option>
+			<option value="20ED"><span>e</span>&#8429; &nbsp; Left-harpoon (bottom)</option>
+			<option value="20EE"><span>e</span>&#8430; &nbsp; Left Arrow (bottom)</option>
+			<option value="20EF"><span>e</span>&#8431; &nbsp; Right Arrow (bottom)</option>
+		
+			<option value="20F0"><span>e</span>&#8432; &nbsp; Asterisk (top)</option>
+		
+			<option value="1AB2"><span>e</span>&#6834; &nbsp; Infinity (top)</option>
+			<option value="035A"><span>e</span>&#858; &nbsp; Infinity (bottom)</option>
+		
+			<option value="1DE9"><span>e</span>&#7657; &nbsp; Little Beta</option>
+			<option value="1DE8"><span>e</span>&#7656; &nbsp; Little b</option>
+			<option value="1DEB"><span>e</span>&#7659; &nbsp; Little f</option>
+			<option value="1DF1"><span>e</span>&#7665; &nbsp; Little W</option>
+			<option value="035C"><span>e</span>&#860; &nbsp; Downward Arc (bottom)</option>
+		
+			<option value="0361"><span>e&#865; &nbsp; Upward Arc (top)</option>
+
+	      </select>
+          <div class="aside">
+            <small>Some may not display correctly due to support.</small>
+          </div>
+          <br />
+          <button type="button" class="combiner" onclick="combiner(document.getElementById('selection').options[document.getElementById('selection').selectedIndex].value);">combine</button>
+          <br />
+          <h3>Result:</h3>
+          <input type="text" id="output" readonly="" value=""></input>
+          <button id="bopy" onclick="copyoutput();">🅱️opy</button>
+
+          <hr />
+          <h3>Paste Area:</h3>
+          <br />
+          <textarea type="text" id="pastaland" placeholder="pasta bowl" onchange="space(1, this);"></textarea>
+          <br />
+          <button class="cwopy" onclick="copypasta();">cʷopy</button>
+
+        </div>
+        <!--/form -->
+      </div>
+      <!-- /bod -->
+    </div>
+  </div>
+  <div class="footer">
+    <a href="https://twitter.com/pastamoji" target="_blank"><i class="fa fa-twitter" style="font-size:24px; color:#14171A;"></i></a>
+    <span class="copy">&copy; 2019 pastamoji</span>
+  </div>
+
+<!-- js -->
+	<script type="text/javascript">
+	
+		function quickmenu() {
+		  document.getElementById("ddmenu").classList.toggle("show");
+		}
+		
+		window.onclick = function(event) {
+		  if (!event.target.matches('.ddbutton')) {
+			var dropdowns = document.getElementsByClassName("ddcontent");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+			  var opendd = dropdowns[i];
+			  if (opendd.classList.contains('show')) {
+				opendd.classList.remove('show');
+			  }
+			}
+		  }
+		}
+		
+		var input = document.getElementById('primary');
+		
+		function combiner (value) {
+		  var input = document.getElementById('primary');
+		  var str = '' + input.value + String.fromCharCode(parseInt(value, 16));
+		  document.getElementById('output').value = str;
+		}
+		 
+		/*function charboy () {
+		  var input = document.getElementById('primary');
+		  var bank = input.value.split(""); 
+		}*/
+		
+		function stringToArray(str) {
+		  const bank = [];
+		  for (const ch of str) {
+		    bank.push(ch);
+		  }
+		  return bank;
+		}
+		
+		function add (value) {
+		  var input = document.getElementById('primary');
+		  if (stringToArray(input.value).length >= 8) {
+		    input.value = value;
+		  }else{
+		    input.value += value;
+		  }
+
+		}
+		
+		function copyoutput () {
+		  var output = document.getElementById('output');
+			output.select();
+			document.execCommand("copy");
+		}
+		
+		function copypasta () {
+		  var pasta = document.getElementById('pastaland');
+		  pasta.select();
+		  document.execCommand("copy");
+		}
+		
+		function space(n, el) {
+		
+		  for(i=n;i--;){
+		    el.value += " ";
+		  }
+		  
+		}
+		
+	</script>
+<!--/js -->
+</body>
+</html>
