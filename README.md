@@ -5,6 +5,5 @@ AUTHORS
   - @pastamoji account creator
 
 LICENSE
-  There are no licenses at this time. 
-  - 2019/02/20
+  - There are no licenses at this time. (2019/02/20)
 
